@@ -11,14 +11,14 @@
   --button-border-radius: .25rem;
   --body-fonts: Arial, sans-serif;
 }
-body { color: #404040; background: #f1f1f1; font-family: Arial, sans-serif; line-height: 1.5; }
+body { color: var(--color-text); background: #f1f1f1; font-family: var(--body-fonts); line-height: 1.5; }
 header { padding: 2rem; background: #8c1d40; color: #ffffff; }
 .eyebrow { color: #ffc627; font-weight: 700; }
 main { display: grid; gap: 1rem; max-width: 70rem; margin: 2rem auto; padding: 0 1rem; }
-.card { padding: 1rem; background: #ffffff; border: 1px solid #d0d0d0; border-radius: .5rem; }
+.card { padding: var(--space-card); background: #ffffff; border: 1px solid var(--border-ltcolor); border-radius: var(--radius-card) }
 img { display: block; max-width: 100%; height: auto; }
 a { color: #8c1d40; }
-button, .button { display: inline-block; padding: .75rem 1rem; background: #8c1d40; color: #ffffff; border-radius: .25rem; font-weight: 700; }
+button, .button { display: inline-block; padding: .75rem 1rem; background: #8c1d40; color: #ffffff; border-radius: var(--button-border-radius); font-weight: 700; }
 form { display: grid; gap: .75rem; max-width: 28rem; }
-input { padding: .75rem; border: 1px solid #747474; }
+input { padding: .75rem; border: 1px solid var(--border-dkcolor); }
 .theme-alt { /* TODO: redefine semantic tokens here, then consume them above. */ }
