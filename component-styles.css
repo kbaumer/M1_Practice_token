@@ -22,10 +22,13 @@ button, .button { display: inline-block; padding: .75rem 1rem; background: #8c1d
 form { display: grid; gap: .75rem; max-width: 28rem; }
 input { padding: .75rem; border: 1px solid var(--border-dkcolor); }
 .theme-alt { /* TODO: redefine semantic tokens here, then consume them above. */
+
 --color-surface: #555;
 --color-action: #222; 
 --space-card: 1.5rem;
 --body-fonts: Verdana, sans-serif;
---color-text:#fff;
 }
-
+h2 
+p
+.theme-alt {--color-text: #fff;
+}
