@@ -21,4 +21,11 @@ a { color: #8c1d40; }
 button, .button { display: inline-block; padding: .75rem 1rem; background: #8c1d40; color: #ffffff; border-radius: var(--button-border-radius); font-weight: 700; }
 form { display: grid; gap: .75rem; max-width: 28rem; }
 input { padding: .75rem; border: 1px solid var(--border-dkcolor); }
-.theme-alt { /* TODO: redefine semantic tokens here, then consume them above. */ }
+.theme-alt { /* TODO: redefine semantic tokens here, then consume them above. */
+--border-color: #555;
+--color-text: #222; 
+--spacing-cards: 1.5rem;
+--header-fonts: Verdana, sans-serif;
+
+}
+
