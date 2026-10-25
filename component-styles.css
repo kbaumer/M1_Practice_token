@@ -26,5 +26,6 @@ input { padding: .75rem; border: 1px solid var(--border-dkcolor); }
 --color-action: #222; 
 --space-card: 1.5rem;
 --body-fonts: Verdana, sans-serif;
+--color-text:#fff;
 }
 
