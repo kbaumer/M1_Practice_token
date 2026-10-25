@@ -11,8 +11,8 @@
   --button-border-radius: .25rem;
   --body-fonts: Arial, sans-serif;
 }
-body { color: var(--color-text); background: #f1f1f1; font-family: var(--body-fonts); line-height: 1.5; }
-header { padding: 2rem; background: #8c1d40; color: #ffffff; }
+body { color: var(--color-text); background: var(--surface-color); font-family: var(--body-fonts); line-height: 1.5; }
+header { padding: 2rem; background:var(--color-nightmode); color: var(--surface-color); }
 .eyebrow { color: #ffc627; font-weight: 700; }
 main { display: grid; gap: 1rem; max-width: 70rem; margin: 2rem auto; padding: 0 1rem; }
 .card { padding: var(--space-card); background: #ffffff; border: 1px solid var(--border-ltcolor); border-radius: var(--radius-card) }
@@ -22,8 +22,8 @@ button, .button { display: inline-block; padding: .75rem 1rem; background: #8c1d
 form { display: grid; gap: .75rem; max-width: 28rem; }
 input { padding: .75rem; border: 1px solid var(--border-dkcolor); }
 .theme-alt { /* TODO: redefine semantic tokens here, then consume them above. */
---border-color: #555;
---color-text: #222; 
+--surface-color: #555;
+--color-nightmode: #222; 
 --spacing-cards: 1.5rem;
 --header-fonts: Verdana, sans-serif;
 }
